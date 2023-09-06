@@ -1,0 +1,31 @@
+.intro{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+
+.leftintro{
+    
+    display: flex;
+    align-items: center;
+    width: 500px;
+
+    h1{
+       font-size: 70px;
+        span{
+            background: #F6F8F9;
+            background: radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 30%, #D7DEE3 60%, #F5F7F9 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
+    }
+}
+
+.rightintro{
+    background: url('https://imgeng.jagran.com/images/2023/jun/61686714822800.jpg');
+    height: 600px;
+    width: 700px;
+    background-size: cover;
+}
+}
